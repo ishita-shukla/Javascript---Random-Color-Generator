@@ -1,0 +1,42 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+label {
+    margin-right: 10px;
+    padding-bottom: 10px;
+}
+
+input {
+    padding: 5px;
+    margin-right: 5px; /* Adjusted margin to align with the label */
+    font-size: larger;
+}
+
+button {
+    padding: 8px;
+    margin-top: 10px;
+    cursor: pointer;
+    width: 100px;
+    font-size: large;
+}
+
+#result-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+#numberInput{
+    margin-left: 97px;
+}
+
+.split-box {
+    box-sizing: border-box; 
+    border: 1px solid #333;
+    margin: 0 2.5px;
+    padding: 10px;
+    text-align: center;
+    /* flex: 1;  */
+}

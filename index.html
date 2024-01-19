@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Divider</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <label for="numberInput">Enter a number:</label>
+    <input type="number" id="numberInput" min="1" required>
+    <br>
+    <label for="splitInput">Enter number of times to split:</label>
+    <input type="number" id="splitInput" min="1" required>
+    <br>
+    <button onclick="splitNumber()">Split</button>
+    <div id="result-container"></div>
+</body>
+</html>
